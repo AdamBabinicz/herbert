@@ -1,0 +1,20 @@
+.footer .section-title {
+  margin-bottom: 0;
+}
+.footer.section-p {
+  padding: 4.5rem 0;
+}
+.footer-social-links {
+  margin-top: 2rem;
+}
+.footer-social-links li a {
+  margin: 0 1rem;
+  transition: var(--transition);
+  font-size: 3rem;
+}
+.footer-social-links li:hover a {
+  color: var(--brown-color);
+}
+.footer .reserved-text {
+  margin-top: 2rem;
+}

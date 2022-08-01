@@ -1,0 +1,58 @@
+.newsletter {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/images/9.jpg") center/cover no-repeat;
+  min-height: 65vh;
+}
+.newsletter-form {
+  max-width: 460px;
+}
+.newsletter-form .form-control {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 35px;
+  height: 66px;
+  font-size: 22px;
+  padding: 0 3rem;
+  margin-bottom: 2.6rem;
+  color: var(--white-color);
+  line-height: 66px;
+  font-family: inherit;
+  font-weight: 200;
+}
+.newsletter-form .submit-btn {
+  width: 100%;
+  height: 66px;
+  border-radius: 35px;
+  border: 2px solid var(--brown-color);
+  transition: var(--transition);
+}
+.newsletter-form .submit-btn:hover {
+  background: transparent;
+  color: var(--brown-color);
+}
+.newsletter-content {
+  width: 50%;
+  margin: auto;
+}
+.newsletter-content .par {
+  margin: auto;
+  width: fit-content;
+}
+.newsletter-content p {
+  color: var(--white-color);
+  line-height: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-content {
+    margin: auto;
+    width: fit-content;
+  }
+  .newsletter-content .par {
+  }
+  .newsletter-content p {
+    color: var(--white-color);
+    line-height: 2.5rem;
+  }
+}
