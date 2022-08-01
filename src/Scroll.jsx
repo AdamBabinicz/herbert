@@ -60,10 +60,10 @@ const Div = styled.div`
       color: red;
     } */
     @media screen and (min-width: 280px) and (max-width: 1080px) {
-      left: 80vw;
+      left: 86vw;
       right: initial;
-      max-width: 2.5rem;
-      max-height: 2.5rem;
+      max-width: 3.8rem;
+      max-height: 3.8rem;
     }
   }
 `;

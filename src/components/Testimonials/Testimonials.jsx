@@ -23,7 +23,7 @@ const Testimonials = () => {
         <div className="testimonials-content">
           <div className="section-title">
             <h3 className="text-brown">
-              Powiedzieli <span className="text-white">o Herbercie</span>
+              Powiedzieli <span className="text-white">o&nbsp;Herbercie</span>
             </h3>
           </div>
           <div className="testimonials-list">
