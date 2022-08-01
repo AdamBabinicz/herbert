@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://zbigniew-herbert.netlify.app/sitemap.xml
+Host: https://zbigniew-herbert.netlify.app
+
